@@ -1,0 +1,1296 @@
+.color {
+    color: black;
+    font-size: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .fourty{
+    width: 95%;
+  }
+  .smallTitle{
+    font-size: 23px;
+    padding-bottom: 10px;
+  }
+  .space{
+    font-size: 18px;
+  }
+  .sentence{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+      justify-content: space-evenly;
+  }
+  
+  .keyTitle {
+    background-color: rgb(221, 222, 227);
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .main {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+  }
+  .mediumColumn div{
+    color: rgb(85,85,85);
+  }
+  
+  .backContainer {
+    display: flex;
+    width: 80%;
+    color: black;
+    justify-content: flex-end;
+  }
+  
+  .logoSpace {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .button {
+    appearance: none;
+    border: none;
+    background-color: rgb(254, 190, 104);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 25px;
+    min-height: 40px;
+    min-width: 0;
+    outline: none;
+    /* padding: 8px;
+    margin: 10px; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+  }
+  .buttonSmall {
+    appearance: none;
+    border: 1px solid rgb(160, 160, 160);
+    background-color: rgb(105, 105, 105);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: normal;  
+    
+    text-align: center;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+    height: 10%;
+    will-change: transform;
+  }
+  .button1 {
+    appearance: none;
+    border: none;
+    background-color: rgb(254, 190, 104);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 10px;
+    line-height: normal;
+    padding: 10px;
+    min-width: 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+    will-change: transform;
+  }
+  .fifty{
+    width: 20%;
+  }
+  .rowHead div{
+    color: rgb(117,117,117);
+  }
+  
+  .button:disabled {
+    pointer-events: none;
+  }
+  
+  .button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .buttonContainer1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  .buttonContainer {
+    width: 200px;
+  }
+  
+  .thirdSection {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .title {
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  .titleRow {
+    color: black;
+    display: flex;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 10px;
+  }
+  .titleThin {
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  .centerMain div{
+    color: rgb(85,85,85);
+  }
+  .blue{
+    color: rgb(1,45,82);
+    padding-left: 5px;
+  }
+  .titleForm {
+    color: rgb(85,85,85);
+    font-size: 33px;
+    font-weight: 600;
+    padding: 10px;
+    width: 85%;
+  }
+  
+  .titleSmal{
+    font-size: 20px;
+    text-align: center;
+  }
+  .titleSmall {
+    color: rgb(85,85,85);
+    font-size: 21px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    font-weight: 400;
+    
+  }
+  .titleSmallHeader {
+    color: rgb(85,85,85);
+    font-size: 17px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    font-weight: 400;
+    
+  }
+  
+  .titleSmallNo {
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    font-weight: 500;
+    
+  }
+  .rowHead div:hover{
+    /* background-color: rgb(219,221,233); */
+    color: rgb(219,221,233);
+    
+  }
+  .space {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+  .spaceBottom {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  .titleMed {
+    color: black;
+    font-size: 25px;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 450; 
+  }
+  .titleMedSmall {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300; 
+  }
+  
+  
+  .formContainer{
+    width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+  }
+  
+  .focusTitle {
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    transition: all ease-in 0.3s;
+  }
+  
+  .focusTitle:hover {
+    color: black;
+    background-color: rgb(245, 245, 245);
+    font-size: 30px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .focusTitleGray {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(245, 245, 245);
+    font-size: 30px;
+    font-weight: 300;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .homeBox{
+    width: 500px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+    background-color: rgb(147, 196, 242);
+  }
+  .titleBox{
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 3px;
+  }
+  .paragraphBox{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .homeBox div{
+    color: black;
+    
+  }
+  .flexSomething {
+    display: flex;
+    background-image: url("/hompage.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .homePage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSmall{
+    height: 300px;
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 21px;
+  }
+  .sectionSmall div{
+    padding: 5px;
+    line-height: 33px;
+    font-weight: 200  ;
+  }
+  .flex{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+  }
+  .flexLarge{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .flexCenter{
+    display: flex;
+    align-items: center;
+  }
+  .flexCenter div{
+    padding: 10px;
+  }
+  
+  .keyPointTitle {
+    color: black;
+    font-size: 19px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .copierContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(214,215,227);
+    border-radius: 25px;
+    width: 400px;
+    height: 450px;
+    padding: 40px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .pointer{
+    padding: 2px;
+      cursor: pointer;
+      margin: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 1px solid #000;
+  }
+  
+  .paragraphContainer {
+    width: 50%;
+  }
+  .paragraphContainerMed {
+    width: 75%;
+    
+  }
+  
+  .smaller {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .paragraph {
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+    font-weight: 200; 
+  }
+  .paragraphNo {
+    color: black;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 35px;
+    padding: 10px;
+    font-weight: 200; 
+  }
+  .Overview {
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    padding: 40px;
+    margin-top: 16px;
+  }
+  
+  .lineColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .paragraphSmall {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    font-weight: 300;
+  }
+  
+  .bulletContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .bullet {
+    background-color: black;
+    color: transparent;
+    height: 13px;
+    width: 13px;
+  
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 10px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+  }
+  
+  .logo {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+  }
+  
+  .specsContainer {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px rgb(219, 221, 233) solid;
+  }
+  .specsContainer:hover {
+    background-color: rgb(245, 245, 245);
+    transition: all ease-in 0.3s;
+  }
+  .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+  }
+  .phoneNumber {
+    background-color: transparent;
+    outline: none;
+    color: rgb(117, 117, 117);
+    border: none;
+    border-bottom: 1px black solid;
+    width: 100%;
+    font-size: 20px;
+  }
+  .phoneNumber:focus {
+    border: none;
+  }
+  .smallColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+  }
+  .titleMed
+  
+  .inputSingle{
+    width: 100%;
+    outline: none;
+    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(210,210,210);
+    color: black;
+  }
+  
+  
+  
+  .inputSingle::placeholder{
+    color:rgb(203,203,203)
+  }
+  .circle{
+    border-radius: 50px;
+    padding: 5px;
+  }
+  
+  .inputSingleFull {
+    width: 100%;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(210,210,210);
+    color: black;
+  }
+  .specsContainerDark {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px rgb(219, 221, 233) solid;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .bottomContainer {
+    border: 1px rgb(219, 221, 233) solid;
+    height: 120%;
+    width: 80%;
+  }
+  .thirty {
+    width: 30%;
+  }
+  .phoneNumber {
+    background-color: transparent;
+    outline: none;
+    color: rgb(117, 117, 117);
+    border: none;
+    border: 1px solid rgb(210,210,210);
+    padding: 10px;
+    border-radius: 5px;
+    width: 9
+    0%;
+    font-size: 20px;
+  }
+  .buttonBlue {
+    appearance: none;
+    color: white;
+    background-color: rgb(2,50,92);
+    border: 1px solid rgb(2,50,92);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 150px;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .buttonBlueSmall {
+    appearance: none;
+    color: rgb(2,50,92);
+    background-color: white;
+    border: 1px solid rgb(2,50,92);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    height: 70px;
+    width: 130px;
+    padding: 10px;
+    
+  }
+  .buttonBlue:hover{
+    background-color: white;
+    color: rgb(2,50,92);
+    transition: .3s all ease-in-out;
+  }
+  .buttonBlueSmall:hover{
+    background-color: rgb(2,50,92);
+    color: white;
+    transition: .3s all ease-in-out;
+  }
+  .row {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 40px; 
+  }
+  .rowNormal {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .rowButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .twenty{
+    width: 25%;
+  }
+  .rowSmall{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    align-items: center;
+  }
+  
+  .rowSpace {
+    display: flex;
+    padding: 5px;
+    width: 65%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px; 
+  }
+  .thick{
+    font-weight: 600;
+  }
+  .titleMid{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+  }
+  .boxContainer{
+    height: fit-content;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .box{
+    width: 500px;
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .boxContainerRow{
+    height: fit-content;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .boxRow{
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .rowBottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 77%;
+  }
+  .section div {
+    color: rgb(85, 85, 85);
+  }
+  .bigTitle{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px;
+    color: black;
+    text-align: center;
+  }
+  .aboutRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .keyRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .photoBox {
+    width: 800px;
+    height: 350px;
+    background-color: white;
+  }
+  .spaceEven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+  }
+  
+  .secondSection {
+    height: 53vh;
+    background-color: gray;
+  }
+  .sectionReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 700px;
+  }
+  .centerBox{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .centerBoxFooter{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(213,213,213);
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .footerChoicesContainer{
+    height: 100%;
+    display: flex;
+    padding-left: 100px;
+  }
+  .footerTitle{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .footerChoice{
+    color: rgb(80, 79, 79);
+    font-size: 20px;
+    padding: 5px;
+  }
+  .centerBoxRow{
+    display: flex;
+    height: fit-content;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .centerBoxColumn{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .section {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 66px;
+    width: 150%;
+  }
+  .sectionColumn {
+    height: fit-content;
+    min-height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 66px;
+    justify-content: space-evenly;
+  }
+  .centerHor{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .eighty{
+    width: 80%;
+  }
+  .sectionNormal {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 66px;
+    
+  }
+  
+  .lexmark {
+    background-image: url("/static/Lexmark.webp");
+    height: 40vh;
+    width: 30vw;
+    margin: 15px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  }
+  
+  .konika {
+    background-image: url("/static/Konika.jpg");
+    height: 52vh;
+    width: 30vw;
+    background-size: contain;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .black {
+    color: black;
+  }
+  
+  .epson {
+    background-image: url("/static/epson.jpg");
+    height: 40vh;
+    width: 20vw;
+    background-size: contain;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  }
+  
+  .logoSpaceContainer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rowHead{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+  }
+  .imageContainer{
+    border: 1px solid rgb(210, 210, 210);
+    height: 50%;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  .gap{
+    margin: 10px;
+  }
+  .line {
+    height: 1px;
+    width: 75%;
+    position: absolute;
+    background-color: rgb(218, 221, 233);
+  }
+  .lineSmall {
+    height: 1px;
+    width: 80%;
+    background-color: rgb(218, 221, 233);
+  }
+  /* .line {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(218, 221, 233);
+  } */
+  
+  .keyLine {
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(218, 221, 233);
+  }
+  
+  .centerLine {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+  }
+  .gridLarge {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bulletPoint{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    height: 45%;
+  }
+  .centerMain {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: space-evenly;
+    
+  }
+  
+  
+  .infoSmall {
+    color: black;
+    font-size: 17px;
+  }
+  
+  .infoMedium {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .infoBig {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .columnContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+  }
+  .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 247, 248);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 55vh;
+    width: 30vw;
+    border-radius: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .bottomProductContainer{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    height: 90%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .konikaBottom{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  
+  @media (width < 1200px) {
+    .keyPointTitle {
+      font-size: 16px;
+    }
+  }
+  
+  @media (width < 1050px) {
+    .keyPointTitle {
+      font-size: 16px;
+    }
+    .row {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .Overview {
+      color: black;
+      font-size: 15px;
+      font-weight: 200;
+      line-height: 20px;
+      letter-spacing: 1.5px;
+      margin-top: 16px;
+      padding: 0px;
+    }
+    .paragraphSmall {
+      font-size: 15px;
+    }
+    .rowBottom {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 30%;
+      width: 100%;
+    }
+    .bottomContainer {
+      width: 120%;
+    }
+    .section {
+      width: 90%;
+    }
+    .thirty {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .centerBoxColumn{
+      padding: 0px;
+    }
+    .paragraphContainerMed{
+      width: 90%;
+    }
+    .paragraphNo{
+      font-size: 18px;
+    }
+    .konika {
+      height: 36vh;
+    }
+    .epson {
+      height: 14vh;
+      width: 26vw;
+    }
+    .row {
+      width: 100%;
+    }
+    .bulletContainer {
+      padding: 8px;
+    }
+    .footerChoicesContainer{
+      padding-left: 0px;
+    }
+    .mobileNone{
+      display: none;
+    }
+    .sectionNormal{
+      flex-direction: column;
+      height: fit-content;
+    }
+    .copierContainer{
+      height: 400px;
+      width: 350px;
+    }
+    .footerChoice{
+      font-size: 14px;
+    }
+    .footerTitle{
+      font-size: 18px;
+    }
+    
+  }
+  @media (max-width: 650px) {
+    .section{
+      flex-direction: column;
+      height: fit-content;
+      padding: 20px;
+      width: 100%;
+    }
+    .rowSpace{
+      width: 85%;
+    }
+    .sectionSmall{
+      height: fit-content;
+      padding-bottom: 30px;
+      width: 90%;
+    }
+    .columnContainer {
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: end;
+    }
+    .bottomProductContainer{
+      width: 95%;
+    }
+    .paragraph{
+      font-size: 20px;
+    }
+    .title{
+      font-size: 25px;
+      padding: 20px;
+      
+    }
+    .row{
+      flex-direction: column;
+    }
+    .bigTitle{
+      font-size: 30px;
+    }
+  
+    .logoSpace {
+      width: 95%;
+      justify-content: space-around;
+    }
+    .container {
+      width: 85vw;
+    }
+    .grid{
+      grid-template-columns: 1fr;
+    }
+    .box{
+      height: 450px;
+      width: 400px;
+    }
+    .titleMed{
+      font-size: 20px;
+    }
+    .space{
+      width: 88%;
+    }
+    .gridLarge{
+      grid-template-columns: auto;
+    }
+    .sectionNormal{
+      padding: 0px;
+    }
+    .centerMain{
+      width: 90%;
+    }
+    .homeBox{
+      width: 400px;
+    }
+    .copierContainer{
+      margin-top: 20px;
+    }
+    .centerMain{
+      align-items: center;
+    }
+    .fifty{
+      width: 40%;
+      margin: 10px;
+    }
+    .sectionColumn{
+      padding: 20px;
+    }
+    .titleSmal{
+      font-size: 14px;
+    }
+    .smallTitle{
+      font-size: 18px;
+    }
+    .twenty{
+      width: 100%;
+    }
+    .sentence{
+      text-align: center;
+      font-size: 22px;
+    }
+    .line{
+      width: 90%;
+    }
+    .inputSingle{
+      width: 100%;
+    }
+  
+  }
+  
+  @media (max-width: 550px) {
+    .focusTitle {
+      font-size: 23px;
+    }
+    .focusTitleGray {
+      font-size: 23px;
+    }
+    .focusTitle:hover {
+      color: black;
+      background-color: rgb(245, 245, 245);
+      font-size: 23px;
+      font-weight: 300;
+      padding: 0px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .button {
+      font-size: 13px;
+      width: 80%;
+    }
+  }
+  

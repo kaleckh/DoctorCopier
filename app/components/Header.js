@@ -38,10 +38,16 @@ export default function Header() {
                 <div className={styles.lineSmall}></div>
               </Link>
             </div>
+            <div className={`${styles.pieceContainer} ${styles.hidden}`}>
+              <Link href="/models">
+                <div className={styles.headerPieces}>Why Lexmark?</div>
+                <div className={styles.lineSmall}></div>
+              </Link>
+            </div>
 
             <div className={`${styles.pieceContainer} ${styles.hidden}`}>
-              <Link href="/about">
-                <div className={styles.headerPieces}>About Us</div>
+              <Link href="/contact">
+                <div className={styles.headerPieces}>Contact Us</div>
                 <div className={styles.lineSmall}></div>
               </Link>
             </div>
