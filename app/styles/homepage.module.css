@@ -218,7 +218,7 @@
     width: 50%;
   }
   .repair {
-    background-image: url("/static/tech.webp");
+    background-image: url("/tech.webp");
     height: 30vh;
     width: 20vw;
     background-size: cover;
@@ -228,7 +228,7 @@
   }
   
   .toner {
-    background-image: url("/static/toner-min.webp");
+    background-image: url("/toner-min.webp");
     height: 30vh;
     width: 20vw;
     background-size: cover;
@@ -238,7 +238,7 @@
   }
   
   .itWork {
-    background-image: url("/static/itworks.webp");
+    background-image: url("/itworks.webp");
     height: 30vh;
     width: 20vw;
     background-size: cover;
@@ -248,7 +248,7 @@
   }
   
   .construction {
-    background-image: url("/static/constructionsmall.webp");
+    background-image: url("/constructionsmall.webp");
     height: 30vh;
     width: 20vw;
     background-size: cover;
@@ -258,7 +258,7 @@
   }
   
   .woman {
-    background-image: url("/static/buy.webp");
+    background-image: url("/buy.webp");
     height: 66vh;
     margin-left: 90px;
     width: 65%;
@@ -546,7 +546,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image: url("/static/side.webp");
+    background-image: url("/side.webp");
     background-size: cover;
     height: 42vh;
     width: 69vw;
@@ -710,7 +710,7 @@
     align-items: center;
   }
   .cartoon {
-    background-image: url("/static/copierCartoon.webp");
+    background-image: url("/copierCartoon.webp");
     height: 65vh;
     width: 30vw;
     background-size: cover;
@@ -759,7 +759,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-image: url('/static/dark73.png');
+    background-image: url('/dark73.png');
     height: 350px;
     border-radius: 10px;
     width: 550px;
@@ -770,7 +770,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-image: url('/static/dark1071.png');
+    background-image: url('/dark1071.png');
     height: 350px;
     border-radius: 10px;
     width: 550px;

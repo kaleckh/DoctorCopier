@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.smallerContainer}>
         <div className={styles.exploreContainerGood}>
           <div style={{ paddingBottom: "15px" }} className={styles.exploreContainerGood}>
-            <Image src={"/static/logo.webp"} width={100} height={75} />
+            <Image src={"/logo.png"} width={100} height={75} />
           </div>
           <div className={styles.footerTags}>
             At Copiers Utah we promise transparent pricing
@@ -25,13 +25,13 @@ export default function Footer() {
           </div>
           <div className={styles.even}>
             <a href="https://www.linkedin.com/in/copiers-utah-5b2b85148/">
-              <Image alt={'linkedin logo'} src={'/static/linkedin.webp'} width={20} height={20} />
+              <Image alt={'linkedin logo'} src={'/linkedin.webp'} width={20} height={20} />
             </a>
             <a href="https://twitter.com/bizinUSAok">
-              <Image alt={'twitter logo'} src={'/static/twitter.webp'} width={20} height={20} />
+              <Image alt={'twitter logo'} src={'/twitter.webp'} width={20} height={20} />
             </a>
             <a href="https://www.facebook.com/copiersforlessutah/">
-              <Image alt={'facebook logo'} src={'/static/facebook.webp'} width={20} height={20} />
+              <Image alt={'facebook logo'} src={'/facebook.webp'} width={20} height={20} />
             </a>
           </div>
         </div>
@@ -68,13 +68,13 @@ export default function Footer() {
           <div >
             <div className={styles.flex}>
               <div style={{ paddingRight: "10px" }}>
-                <Image alt={'phone call logo'} src={'/static/phone.webp'} width={15} height={15} />
+                <Image alt={'phone call logo'} src={'/phone.webp'} width={15} height={15} />
               </div>
               <div style={{ fontSize: "13px", fontWeight: "200" }}>Call us at (801)-261 0510 </div>
             </div>
             <div className={styles.flex}>
               <div style={{ paddingRight: "10px" }}>
-                <Image alt={'mail logo'} src={'/static/mail.webp'} width={15} height={15} />
+                <Image alt={'mail logo'} src={'/mail.webp'} width={15} height={15} />
               </div>
               <div style={{ fontSize: "13px", fontWeight: "200" }}>Info@copiersutah.com</div>
             </div>

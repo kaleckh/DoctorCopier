@@ -27,20 +27,20 @@ export default function Header() {
               </Link>
             </div>
             <div className={styles.pieceContainer}>
-              <Link href="/new">
+              <Link href="/">
                 <div className={styles.headerPieces}>Home</div>
                 <div className={styles.lineSmall}></div>
               </Link>
             </div>                                                            
             <div className={`${styles.pieceContainer} ${styles.hidden}`}>
-              <Link href="/finance">
+              <Link href="/models">
                 <div className={styles.headerPieces}>All Models</div>
                 <div className={styles.lineSmall}></div>
               </Link>
             </div>
 
             <div className={`${styles.pieceContainer} ${styles.hidden}`}>
-              <Link href="/buy">
+              <Link href="/about">
                 <div className={styles.headerPieces}>About Us</div>
                 <div className={styles.lineSmall}></div>
               </Link>
@@ -48,7 +48,7 @@ export default function Header() {
             {/* <Link href={'/cart'}>
               <div className={styles.cartContainer}>
                 <Image
-                  src="/static/cart.webp"
+                  src="/cart.webp"
                   alt="cart icon"
                   fill={true}
                 />
