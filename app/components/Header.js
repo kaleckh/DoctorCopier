@@ -21,7 +21,7 @@ export default function Header() {
                 <Image
                 style={{marginTop:"50px"}}
                   src="/logo.png"
-                  alt="copiers utah logo"
+                  alt="Doctor Copier logo"
                   fill={true}
                 />
               </Link>

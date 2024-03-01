@@ -12,7 +12,7 @@ export default function Footer() {
             <Image src={"/logo.png"} width={100} height={75} />
           </div>
           <div className={styles.footerTags}>
-            At Copiers Utah we promise transparent pricing
+            At Doctor Copier we promise transparent pricing
           </div>
           <div className={styles.footerTags}>
             high-quality equipment, and exceptional service
@@ -60,7 +60,7 @@ export default function Footer() {
         <div className={styles.exploreContainer2}>
           <div style={{ paddingBottom: "3px" }} className={styles.footerTitle}>Contact Us</div>
           <div style={{ paddingBottom: "10px" }} className={styles.footerContainer}>
-            <div style={{ fontSize: "13px", fontWeight: "200" }}>Copiers Utah</div>
+            <div style={{ fontSize: "13px", fontWeight: "200" }}>Doctor Copier</div>
             <div style={{ fontSize: "13px", fontWeight: "200" }}>We have Copiers For Sale</div>
             <div style={{ fontSize: "13px", fontWeight: "200" }}>554 W 8360 S</div>
             <div style={{ fontSize: "13px", fontWeight: "200" }}>Sandy, UT 84070</div>

@@ -322,7 +322,7 @@
   
   .title {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 300;
     padding: 10px;
     color: black;
     text-align: center;
@@ -635,8 +635,8 @@
       justify-content: space-evenly;
   }
   .imageContainerSmall{
-    width: 126px;
-    height: 164px;
+    width: 200px;
+    height: 150px;
     position: relative;
   }
   .imageContainerParagraph{
@@ -650,7 +650,7 @@
     flex-direction: column;
     border: 1px solid rgb(214,215,227);
     border-radius: 25px;
-    width: 250px;
+    width: 350px;
     height: 350px;
     padding: 12px;
     cursor: pointer;

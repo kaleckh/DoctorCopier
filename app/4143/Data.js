@@ -141,7 +141,7 @@ const Home = () => {
       </div>
       <div className={styles.center}>
         <div className={styles.sectionSmall}>          
-          <div>Konica Minolta offers the top color quality output in the industry. These machines are built to last with minimal disruption. With up to 12x18 paper sizes standard, there is nothing your office cannot do with these copiers.</div>
+          <div>The Lexmark XC 4143 is a top choice for hospitals. Its fast printing and scanning speeds ensure efficient document processing, while advanced security features protect patient information. The intuitive interface and customizable workflows streamline tasks, reducing administrative workload. Its compact design and quiet operation make it perfect for busy hospital environments. Overall, the Lexmark XC 4143 enhances productivity and confidentiality in hospital document management.</div>
         </div>
       </div>
       <div className={styles.center}>
@@ -323,11 +323,11 @@ const Home = () => {
       </div>
       <div className={styles.centerBoxColumn}>
         <div style={{ padding: "20px" }} className={styles.title}>About Doctor Copier</div>
-        <Image alt={"copiers arizona team"} style={{ borderRadius: "5px" }} src={'/team.webp'} height={450} width={350} />
+        <Image alt={"Doctor Copier team"} style={{ borderRadius: "5px" }} src={'/team.webp'} height={450} width={350} />
         <div className={styles.paragraphContainerMed}>
           <div className={styles.paragraphNo}>
 
-            At Copiers Arizona, we are dedicated to providing businesses in Arizona with reliable copiers that deliver exceptional performance. That's why we have partnered exclusively with Lexmark, a trusted industry leader known for their dependable office equipment. With our strong focus on reliability, you can trust that our selection of Lexmark copiers will meet and exceed your expectations.</div>
+            At Doctor Copier, we are dedicated to providing businesses in Utah with reliable copiers that deliver exceptional performance. That's why we have partnered exclusively with Lexmark, a trusted industry leader known for their dependable office equipment. With our strong focus on reliability, you can trust that our selection of Lexmark copiers will meet and exceed your expectations.</div>
         </div>
         <div className={styles.paragraphContainerMed}>
           <div className={styles.paragraphNo}>
@@ -337,7 +337,7 @@ const Home = () => {
         <div className={styles.paragraphContainerMed}>
           <div className={styles.paragraphNo}>
 
-            Choose Copiers Arizona and Lexmark for unrivaled reliability in your office. Contact us today to explore our range of reliable copiers and discover the difference they can make in your business operations.</div>
+            Choose Doctor Copier and Lexmark for unrivaled reliability in your office. Contact us today to explore our range of reliable copiers and discover the difference they can make in your business operations.</div>
         </div>
       </div>
       <Footer />
