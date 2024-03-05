@@ -39,7 +39,7 @@ export default function Header() {
               </Link>
             </div>
             <div className={`${styles.pieceContainer} ${styles.hidden}`}>
-              <Link href="/models">
+              <Link href="/lexmark">
                 <div className={styles.headerPieces}>Why Lexmark?</div>
                 <div className={styles.lineSmall}></div>
               </Link>

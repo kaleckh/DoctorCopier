@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.smallerContainer}>
         <div className={styles.exploreContainerGood}>
           <div style={{ paddingBottom: "15px" }} className={styles.exploreContainerGood}>
-            <Image src={"/logo.png"} width={100} height={75} />
+            {/* <Image src={"/profile.png"} width={150} height={150} /> */}
           </div>
           <div className={styles.footerTags}>
             At Doctor Copier we promise transparent pricing
@@ -38,23 +38,18 @@ export default function Footer() {
         <div className={styles.line}></div>
         <div className={styles.exploreContainer}>
           <div className={styles.footerTitle}>Services</div>
-          <Link href="/buy">
-            <h4 className={styles.h4}>Copiers for sale</h4>
+          <Link href="/">
+            <h4 className={styles.h4}>Home</h4>
           </Link>
-          <Link href="/shortTerm">
-            <h4 className={styles.h4}>Copier Rentals</h4>
+          <Link href="/models">
+            <h4 className={styles.h4}>Models</h4>
           </Link>
-          <Link href="/fix">
-            <h4 className={styles.h4}>Copier Maintanance</h4>
+          <Link href="/lexmark">
+            <h4 className={styles.h4}>Why Lexmark?</h4>
           </Link>
-          <Link href="/finance">
-            <div className={styles.h4}>Finance a Copier</div>
-          </Link>
-          <Link href="/products">
-            <div className={styles.h4}>
-              Our top New and Used Copiers
-            </div>
-          </Link>
+          <Link href="/contact">
+            <div className={styles.h4}>Contact Us</div>
+          </Link>          
         </div>
         <div className={styles.line}></div>
         <div className={styles.exploreContainer2}>
