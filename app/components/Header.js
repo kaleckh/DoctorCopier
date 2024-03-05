@@ -18,7 +18,7 @@ export default function Header() {
           <div className={styles.logoSpace}>
             <div className={styles.logoContainer}>
               <Link href={'/'}>
-                <Image
+                <img
                 style={{marginTop:"50px"}}
                   src="/logo.png"
                   alt="Doctor Copier logo"
