@@ -1,6 +1,7 @@
 import styles from "../styles/Header.module.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Logo from '../../public/logo.png'
 // import Sliver from '../components/sliverr'
 import React, { useEffect, useRef, useState, useContext } from "react";
 import Image from "next/image";
@@ -16,22 +17,25 @@ export default function Header() {
       <header className={styles.contactHeader}>
         <div className={styles.logoSpaceContainer}>
           <div className={styles.logoSpace}>
-            <div className={styles.logoContainer}>
-              <Link href={'/'}>
-                <img
-                style={{marginTop:"50px"}}
-                  src="/logo.png"
-                  alt="Doctor Copier logo"
-                  fill={true}
+            <Link href={'/'}>
+              <div className={styles.logoContainer}>
+                <Image
+                  src={Logo}
+                  alt="Picture of the author"
+                  sizes="100vw"
+                  style={{
+                    width: '100%',                    
+                    height: 'auto',
+                  }}
                 />
-              </Link>
-            </div>
+              </div>
+            </Link>
             <div className={styles.pieceContainer}>
               <Link href="/">
                 <div className={styles.headerPieces}>Home</div>
                 <div className={styles.lineSmall}></div>
               </Link>
-            </div>                                                            
+            </div>
             <div className={`${styles.pieceContainer} ${styles.hidden}`}>
               <Link href="/models">
                 <div className={styles.headerPieces}>All Models</div>

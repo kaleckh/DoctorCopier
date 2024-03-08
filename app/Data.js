@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Section from "../app/components/Section";
+import Doctor from '../public/doctor.webp'
 // import Section from "../app/components/Section";
 import Header from "./components/Header";
 import Link from "next/link";
@@ -119,18 +120,23 @@ export default function Data() {
             </div>
 
             <div className={styles.displayNone}>
-              <div className={ styles.showing}>
-                <Image
-                  style={{ borderRadius: "8px" }}
-                  src="/doctor.webp"
-                  alt="woman using a copier rental"
-                  width={500}
-                  height={500}
-                />
-              </div>                            
+              <div className={styles.showing}>
+                <div className={styles.bigImage}>
+                  <Image
+                    src={Doctor}
+                    alt="Picture of the author"
+                    sizes="100vw"
+                    style={{
+                      borderRadius:"10px",
+                      width: '100%',
+                      height: 'auto',
+                    }}
+                  />
+                </div>
+              </div>
             </div>
           </div>
-        </div>                    
+        </div>
         <div className={styles.fourthSection}>
           <div>
             <div className={styles.titleBig}>Our Favorite Products
@@ -235,7 +241,7 @@ export default function Data() {
             <div className={styles.paragraphMedium}>At Alien IT Services, we believe in taking a proactive approach to IT solutions. Our comprehensive range of services includes technical support, printer support, and software and app support for businesses in Utah. We specialize in ensuring network efficiency and secure data management, offering reliable support and fix for broken hardware when you need it most. With a strong focus on delivering expert IT services and reliable support, Alien IT Services is committed to providing top-notch digital solutions for businesses in the Utah area.  </div>
             <div className={styles.paragraphMedium}>In the fast-paced world of technology, having a reliable IT support system is crucial for Utah businesses. Alien IT Services offers a wide range of IT solutions, including managed IT services and network security, tailored to meet the specific needs of local businesses. Our skilled team specializes in delivering secure collaboration and efficient data management, ensuring seamless operations and secure setup. With a strong emphasis on delivering expert IT services and reliable support, Alien IT Services is committed to providing tailored digital solutions for businesses in the heart of Utah.</div>
           </div>
-        </div>        
+        </div>
       </div >
       <Section />
       <Footer />
