@@ -18,7 +18,7 @@ export default function Header() {
         <div className={styles.logoSpaceContainer}>
           <div className={styles.logoSpace}>
             <Link href={'/'}>
-              <div className={styles.logoContainer}>
+              <div className={styles.logoContainers}>
                 <Image
                   src={Logo}
                   alt="Picture of the author"
