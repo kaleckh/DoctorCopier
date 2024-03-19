@@ -1,4 +1,4 @@
-import styles from "../styles/Header.module.css";
+import styles from "../styles/Headers.module.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Logo from '../../public/logo.png'
