@@ -130,13 +130,7 @@
     object-fit: cover;
     width: 100%;
   }
-  /* @media(min-width: 1450px) {
-    .logoContainer{
-      height: 90px;
-    }
-  } */
 
-  
   @media (max-width: 600px) {
     .headerPieces {
       font-size:11px;
