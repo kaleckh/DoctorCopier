@@ -58,7 +58,7 @@ const Products = () => {
     <div className={styles.main}>
 
       <Header />
-      <div className={styles.line}></div>
+      {/* <div className={styles.line}></div> */}
       <div>
         <TawkMessengerReact
           onLoad={onLoad}
@@ -73,7 +73,7 @@ const Products = () => {
           <div className={styles.blue}>Lexmark?</div>
         </div>
         <div className={styles.row}>
-          <div >
+          <div className={styles.mobileNone} >
             <Image src={"/lexmarkLogo.webp"} height={"350"} width={"350"} />
           </div>
           <div className={styles.lexmarkParagraph}>

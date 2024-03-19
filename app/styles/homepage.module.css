@@ -1220,7 +1220,9 @@
   
   @media (max-width: 790px) {
     .titleBig{
-      font-size: 30px;
+      font-size: 22px;
+      padding: 0px;
+      margin-top: 20px;
     }
     .boxContainer{
       margin: 10px;

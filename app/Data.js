@@ -113,7 +113,7 @@ export default function Data() {
                 We provide a variety of high-quality copiers for your business needs. Whether you buy or lease, our cutting-edge solutions will boost your office efficiency to new heights.
               </div>
               <div className={styles.buttonCenter}>
-                <Link href={'/buy'}>
+                <Link href={'/contact'}>
                   <button className={styles.buttonBlue}>Get A Quote Now</button>
                 </Link>
               </div>

@@ -57,7 +57,7 @@ const Products = () => {
     <div className={styles.main}>
 
       <Header/>
-      <div className={styles.line}></div>
+      {/* <div className={styles.line}></div> */}
       <div>
         <TawkMessengerReact
           onLoad={onLoad}
